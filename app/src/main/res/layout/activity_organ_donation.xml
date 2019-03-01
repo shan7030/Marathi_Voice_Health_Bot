@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrganDonation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/blackborder"
+                android:onClick="h1"
+                android:src="@drawable/lungs"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/blackborder"
+                android:onClick="h2"
+                android:src="@drawable/organ"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+              android:text="अवयवदान म्हणजे काय?"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:text="कोण करू शकेल?"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/blackborder"
+                android:onClick="h3"
+                android:src="@drawable/cardiogram"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/blackborder"
+                android:onClick="h4"
+                android:src="@drawable/organ2"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:text="कोणते अवयव दान करू शकतो?"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:text="अवयव दान कसे करावे?"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="REGISTER"
+            android:onClick="h5"
+            android:layout_margin="3dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="0.6"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/btnSpeak"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:src="@android:drawable/ic_btn_speak_now"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

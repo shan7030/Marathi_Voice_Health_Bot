@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NashikMedical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:background="@drawable/blackborder"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/medical2"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Name of the Medical :Kashiba Medicals"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.4"
+                    android:text="Address of the Medical  :Shop No. 1, Gangapur Rd, Vittal Park,Near Veterinary Hospital, Samant Wadi, Nashik, Maharashtra 422002"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Phone Number  :0253 231 1810"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:background="@drawable/blackborder"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/medical"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Name of the Medical :Nilkamal Medicals"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.6"
+                    android:text="Address of the Medical  :Shop No. 1, Kamal Apartment, Opposite Telephone Exchange, Sharanpur Rd, Canada Corner, Nashik, Maharashtra 422002"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Phone Number  :0253 258 0011"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

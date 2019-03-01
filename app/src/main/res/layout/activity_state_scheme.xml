@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StateScheme">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="0.3"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:orientation="vertical"
+           android:layout_margin="3dp"
+          >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:orientation="vertical"
+               android:layout_margin="3dp"
+               android:background="@drawable/blackborder">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="4"
+                   android:src="@drawable/scheme"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1"
+                   android:text="महात्मा ज्योतिबा फुले जन आरोग्य योजना"
+                   android:layout_gravity="center"
+                   android:gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="#000000"/>
+
+           </LinearLayout>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:orientation="vertical"
+           android:layout_margin="3dp"
+           android:background="@drawable/blackborder">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="4"
+               android:src="@drawable/scheme2"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:text="बाल ठाकरे उपगथ विमा योजना"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:textStyle="bold"
+               android:textColor="#000000"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:orientation="vertical"
+           android:layout_margin="3dp"
+           >
+
+
+       </LinearLayout>
+   </LinearLayout>
+</android.support.constraint.ConstraintLayout>

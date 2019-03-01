@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EHealthVoiceBased</string>
+
+
+    <string name="Open">NavBar</string>
+
+    <string name="Close">NavBar</string>
+
+</resources>
